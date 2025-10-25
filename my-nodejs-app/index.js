@@ -4,8 +4,8 @@ const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from Helios v6.0!',
-    version: process.env.VERSION || 'v6.0.0',
+    message: 'Hello from Helios v7.0!',
+    version: process.env.VERSION || 'v7.0.0',
     timestamp: new Date().toISOString()
   });
 });
